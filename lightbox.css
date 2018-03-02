@@ -47,7 +47,6 @@ SOFTWARE.
 .lbbody span:before { padding: 5px; content: var(--lbuttonon); background: var(--lbuttoncolor);
   border-radius: 7px;}
 .lbcontent { display: none; position: relative; margin:35px; z-index: calc(var(--zroot)+10); }
-.lbcontent { border: red 4px solid; }
 
 /* explode light-box with .lbcontrol:checked */
 .lbcontrol:checked+.lbbody { position: fixed; top:0; left:0;
